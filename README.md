@@ -5,3 +5,11 @@ Identities for mathematical functions in GLSL. This repository contains a list o
 This list provides identities that allow expressions to be simplified to something mathematically equivalent to improve performance.
 
 Contributions welcome!
+
+## step
+
+    1.0 - step( a, x ) === step( x, a )
+  
+## smoothstep
+
+    1.0 - smoothstep( a, b, x ) === smoothstep( b, a, x )
